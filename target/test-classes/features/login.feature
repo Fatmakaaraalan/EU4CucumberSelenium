@@ -16,5 +16,5 @@ Feature: User should be able to login
       @store_manager @smoke
       Scenario: Login as a store manager
         Given the user is on the login page
-        When the user enter store manager information
+        When the user enters the sales manager information
         Then the user should be able to login
